@@ -216,7 +216,7 @@ main{
 						margin: 22px 64px 1px 0;
 					}
 					@include media('<600px'){
-						margin: 22px 25px 0 0;
+						margin: 35px 25px 25px 0;
 					}
 					img{
 						@include media('<1064px'){
@@ -256,6 +256,7 @@ main{
 							font-size: 25px;
 							line-height: 23px;
 							margin-bottom: 15px;
+							margin-top: 15px;
 						}	
 					}
 					p{
@@ -426,8 +427,7 @@ aside{
 			.aside-img{
 				width: 186px;
 				height: 186px;
-				border-radius: 50%;
-				margin: auto;
+				border-radius: 50%;/*margin auto*/
 				position: relative;
 				background-color: #5094f2;
 				padding-left: 5px;
@@ -465,8 +465,7 @@ aside{
 			.aside-img{
 				width: 186px;
 				height: 186px;
-				border-radius: 50%;
-				margin: auto;
+				border-radius: 50%;/*margin auto*/
 				position: relative;
 				margin-bottom: 17px;
 				background-color: #d94748;
@@ -505,8 +504,7 @@ aside{
 				padding-left: 4px;
 				width: 186px;
 				height: 186px;
-				border-radius: 50%;
-				margin: auto;
+				border-radius: 50%;/*margin auto*/
 				position: relative;
 				margin-bottom: 17px;
 				@include media('<768px'){
