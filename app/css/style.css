@@ -660,7 +660,8 @@ main div.galery {
     background: url("../images/sprite.png") no-repeat -19px -12px;
     width: 25px;
     height: 63px;
-    margin-left: 15px; }
+    margin-left: 15px;
+    outline: none; }
     @media (max-width: 767px) {
       main div.galery .owl-carousel .owl-nav button.owl-prev {
         display: none; } }
@@ -670,7 +671,8 @@ main div.galery {
     background: url("../images/sprite.png") no-repeat -103px -18px;
     width: 25px;
     height: 63px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    outline: none; }
     @media (max-width: 1119px) {
       main div.galery .owl-carousel .owl-nav button.owl-next {
         margin-right: 20px; } }
